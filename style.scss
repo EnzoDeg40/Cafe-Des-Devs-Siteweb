@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    background: #18191A;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    height: 80px;
+    display: flex;
+    align-items: center;
+    background-color: #242526;
+    padding: 0 15px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+    font-size: 18px;
+
+    .middle{
+        flex: 1;
+    }
+
+    img{
+        width: 64px;
+    }
+
+    a, span{
+        padding-left: 15px;
+    }
+
+    span{
+        color: #EAB38D;
+    }
+
+    a{
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .home{
+        font-weight: 900;
+    }
+
+}
