@@ -3,6 +3,9 @@ body {
   background: #18191A;
   color: #fff;
   font-family: "Inter", sans-serif;
+  background-image: url("./images/coffee_bg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 header {
@@ -32,4 +35,33 @@ header a {
 }
 header .home {
   font-weight: 900;
+}
+
+main .annonce {
+  max-width: 398px;
+  background-color: #242526;
+  border-radius: 20px;
+  padding: 18px;
+}
+main .annonce h2 {
+  margin-top: 0;
+}
+main .annonce .content {
+  margin: 18px 0px;
+  padding: 15px;
+  background-color: #3B3B3B;
+  border-radius: 20px;
+}
+main .annonce .content h3, main .annonce .content p {
+  margin: 0;
+}
+main .annonce .content h3 {
+  margin-bottom: 5px;
+}
+main .terminal {
+  max-width: 808px;
+  background-color: #242526;
+}
+main .terminal .topbar {
+  background-color: #333434;
 }/*# sourceMappingURL=style.css.map */
